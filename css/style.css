@@ -1,0 +1,47 @@
+body{
+	
+}
+
+
+/* Layout */
+.ba-container{
+	padding: 20px;
+}
+
+.checkers {
+	background: #e8cdb1;
+	max-width: 848px;
+	min-width: 448px;
+	width: 100%;
+	max-height: 848px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 20px; 
+}
+
+.board {
+	border: #000 4px solid;
+	width: 100%;
+}
+
+
+.ba-width-1-8 {
+	height: 100px;
+	text-align:center;
+	line-height: 100px;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    vertical-align: middle;
+
+}
+
+.ba-grid:nth-child(odd) .ba-width-1-8:nth-child(odd) {
+	background: #000;
+} 
+
+.ba-grid:nth-child(even) .ba-width-1-8:nth-child(even) {
+	background: #000;
+} 
